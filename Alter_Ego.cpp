@@ -19,20 +19,6 @@ int main() {
             vector<int> ans1,ans2;
             sort(e.rbegin(),e.rend());
             sort(o.rbegin(),o.rend());
-            // int n1=e.size();
-            // for(int i=0;i<n1/2;i++){
-            //     int a = e[n1-1-i];
-            //     int b = e[i];
-            //     ans.push_back((a+b)/2);
-            //     ans.push_back((a-b)/2);
-            // }
-            // int n2=o.size();
-            // for(int i=0;i<n2/2;i++){
-            //     int a = o[n2-1-i];
-            //     int b = o[i];
-            //     ans.push_back((a+b)/2);
-            //     ans.push_back((a-b)/2);
-            // }
             for(int i = 0; i < o.size()/2; i++){
             int el1 = o[i];
             int el2 = o[o.size()-i-1];
